@@ -1,0 +1,22 @@
+
+- Generate DTO
+ -- name of class <Product><Feature>[<Conf>]
+ --package by feature (sjednocene conf a real time) com.company.product.model.<feature>.
+ -- static kyes with JavaDoc by descriptin
+ -- private fieals and get/set methods
+ -- convertToParams methods
+ --(OPTIONAL toSting() method and equals() anf hashCode())
+ 
+ 
+- Interface for Converter in Reader API
+ -- package com.company.product.converter.<feature>
+ 
+- Implementation of Converter
+ -- RealTime
+  --- support multinode ansver and SUM for integer in cluster
+  ??? jak pojmenuji jednotlive elementy respektive nody a hlavni cluster pro SUM
+  --- get property by list of static kyes of DTO -> if(line.hasAttribute(KYE_X))
+ 
+ -- Configuration
+   --- only one list
+   --- support only one responce line (not supported asymetrical configuration of nodes)

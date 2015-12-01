@@ -5,6 +5,7 @@
  -- static kyes with JavaDoc by descriptin
  -- private fieals and get/set methods
  -- convertToParams methods
+ -- constructor with default values
  --(OPTIONAL toSting() method and equals() anf hashCode())
  
  

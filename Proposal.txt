@@ -1,5 +1,6 @@
 
 - Generate DTO
+ -- input parameters (list of feature, oam version)
  -- name of class <Product><Feature>[<Conf>]
  --package by feature (sjednocene conf a real time) com.company.product.model.<feature>.
  -- static kyes with JavaDoc by descriptin
